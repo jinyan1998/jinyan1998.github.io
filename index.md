@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a MSc student in Software Engineering at [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/).
+I am a second year MSc student in Software Engineering at [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/).
 I obtained my bachelor’s degree from Central South University.
 
 ## Research Interests
@@ -14,7 +14,7 @@ I obtained my bachelor’s degree from Central South University.
 ## News
 
 - **[Aug. 2021]** Our paper about long-range backscatter communication is accepted to [Mobicom 2021](https://www.sigmobile.org/mobicom/2021/index.html).
-- **[Sep. 2020]** I am admitted to Tsinghua University as a MSc student, working with [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/)
+- **[Sep. 2020]** I am admitted to Tsinghua University as an MSc student, working with [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/)
 
 ## Publications
 
