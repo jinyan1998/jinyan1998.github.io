@@ -24,7 +24,7 @@ I obtained my bachelor’s degree from Central South University.
   <br>
   In ACM International Conference on Mobile Computing and Networking (**Mobicom**), 2021
   <br>
-  [[PDF](https://arxiv.org/pdf/2002.10211.pdf)] [[Code](https://github.com/yaoyao-liu/mnemonics)] 
+  [[PDF](./paper/Jinyan_lorabackscatter.pdf)]
 
 ## Honors
 
