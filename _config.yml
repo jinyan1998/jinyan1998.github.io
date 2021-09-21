@@ -6,8 +6,8 @@ keywords: minimal academic
 # google_scholar: https://scholar.google.com/
 cv: ./paper/Jinyan_cv.pdf
 github_link: https://jinyan1998.github.io
-avatar: ./assets/img/avatar.png
-google_analytics: UA-111540567-4
+avatar: ./assets/img/avatar.jpg
+# google_analytics: UA-111540567-4
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
