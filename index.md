@@ -4,9 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a first year PhD student in Software Engineering at [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), working with my rockstar advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/). 
-I received my Bachelors (2020) from Central South University and Masters (2023) from Tsinghua University.
-I am a mediocre (for now) but devoted (knowing everything is much burden for me) researcher on wireless network.
+I am a first-year Ph.D. student in Software Engineering at the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), working with my rockstar advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/). 
+I received my Master's (2023) from Tsinghua University and my Bachelor's (2020) from Central South University.
+I am a mediocre (for now) but devoted (knowing everything is much burden for me) researcher on wireless networks.
 
 ## Research Interests
 
@@ -27,7 +27,6 @@ I am a mediocre (for now) but devoted (knowing everything is much burden for me)
   **Jinyan Jiang**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
   <br>
   In ACM International Conference on Mobile Systems, Applications, and Services (**Mobisys**), 2023
-  <br>
   [[PDF](./paper/locra.pdf)]
 
 
@@ -36,7 +35,6 @@ I am a mediocre (for now) but devoted (knowing everything is much burden for me)
   **Jinyan Jiang**, Zhenqiang Xu, Fan Dang, Jiliang Wang
   <br>
   In ACM International Conference on Mobile Computing and Networking (**Mobicom**), 2021
-  <br>
   [[PDF](./paper/pplora.pdf)]
 
 ## Honors
