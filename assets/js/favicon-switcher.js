@@ -10,6 +10,16 @@ function applyLink(source, target) {
   target.setAttribute('href', source.getAttribute('href'))
 }
 
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8edcba23d679458ed6e72f34e6013f73";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+
 // eslint-disable-next-line no-unused-vars
 function initSwitcher(delay) {
   // Exit if media queries aren't supported

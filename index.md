@@ -2,24 +2,41 @@
 layout: homepage
 ---
 
-<h1 id="about-me"></h1>
+## About Me
 
-<h2 style="margin: 60px 0px 10px;">Short Bio</h2>
+I am a first-year Ph.D. student in Software Engineering at the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), working with my insightful/talented/kind/lovely advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/). 
+I received my Master's (2023) from Tsinghua University and my Bachelor's (2020) from Central South University.
+I am a mediocre (for now) but devoted (knowing everything is a huge burden for me) researcher on wireless networks.
 
-I am currently a postdoctoral fellow in the Department of Computer Science at [Johns Hopkins University](https://cs.jhu.edu). I am fortunate to work with [Prof. Alan L. Yuille](https://www.cs.jhu.edu/~ayuille/). I received my Ph.D. in Computer Science at [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/), where I was fortunate to be advised by [Prof. Bernt Schiele](https://people.mpi-inf.mpg.de/~schiele/) and [Prof. Qianru Sun](https://qianrusun.com/). As part of the [European Laboratory for Learning and Intelligent Systems (ELLIS) Ph.D. Program](https://ellis.eu/phd-postdoc), I was also co-supervised by [Dr. Christian Rupprecht](https://chrirupp.github.io/) and [Prof. Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/) in the [Visual Geometry Group (VGG)](https://www.robots.ox.ac.uk/~vgg/) at the [University of Oxford](https://www.ox.ac.uk/). From 2018 to 2019, I was a research intern at the [National University of Singapore](https://www.comp.nus.edu.sg/), working with [Prof. Tat-Seng Chua](https://www.chuatatseng.com/) and [Prof. Qianru Sun](https://qianrusun.com/). Prior to this, I obtained my bachelor’s degree from [Tianjin University](http://www.tju.edu.cn/english/index.htm). 
+## Research Interests
 
-My research lies at the intersection of **computer vision** and **machine learning** -- with a special focus on building intelligent visual systems that are continual and data-efficient. My research interests include **continual learning**, **few-shot learning**, **semi-supervised learning**, **generative models**, **3D geometry models**, and **medical imaging**.
+- **Wireless:** Localization
+- **IoT:** Backscatter communication/sensing
 
-<strong style="color:#e74d3c; font-weight:600"><strong style="color:#e74d3c; font-weight:600">I am currently on the 2023-2024 academic job market, looking for faculty positions in CS, CSE, ECE, IEOR, etc., related to Artificial Intelligence, Computer Vision, and Machine Learning. Please feel free to contact me if you are interested. I am also happy to give talks on my research in related seminars.</strong></strong>
+## News
 
-{% include_relative _includes/news.md %}
+- **[Mar. 2023]** Our paper about backscatter localization is accepted to [Mobisys 2023](https://www.sigmobile.org/mobisys/2023/).
+- **[Sep. 2022]** I am admitted to Tsinghua University as a PhD student, still working with my rockstar advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/).
+- **[Aug. 2021]** Our paper about backscatter communication is accepted to [Mobicom 2021](https://www.sigmobile.org/mobicom/2021/index.html).
+- **[Sep. 2019]** I am admitted to Tsinghua University as a master student, working with [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/).
 
-{% include_relative _includes/publications.md %}
+## Publications
 
-{% include_relative _includes/teaching.md %}
+- **LocRa: Enable Practical Long-Range Backscatter Localization for Low-Cost Tags**
+  <br>
+  **Jinyan Jiang**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
+  <br>
+  In ACM International Conference on Mobile Systems, Applications, and Services (**Mobisys**), 2023
+  [[PDF](./paper/locra.pdf)]
 
-{% include_relative _includes/talks.md %}
 
-{% include_relative _includes/services.md %}
+- **Long-Range Ambient LoRa Backscatter with Parallel Decoding**
+  <br>
+  **Jinyan Jiang**, Zhenqiang Xu, Fan Dang, Jiliang Wang
+  <br>
+  In ACM International Conference on Mobile Computing and Networking (**Mobicom**), 2021
+  [[PDF](./paper/pplora.pdf)]
 
-{% include_relative _includes/contact.md %}
+## Honors
+
+- Chinese National Scholarship for Undergraduates in 2017.
