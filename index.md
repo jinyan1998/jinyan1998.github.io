@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a first-year Ph.D. student in Software Engineering at the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), working with my insightful/talented/kind/lovely advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/). 
+I am a first-year Ph.D. student in Software Engineering at the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), working with my insightful/kind advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/). 
 I received my Master's (2023) from Tsinghua University and my Bachelor's (2020) from Central South University.
 I am a mediocre (for now) but devoted (knowing everything is a huge burden for me) researcher on wireless networks.
 
@@ -15,12 +15,20 @@ I am a mediocre (for now) but devoted (knowing everything is a huge burden for m
 
 ## News
 
+- **[Mar. 2024]** Our paper about WiFi backscatter loalization is going to be accepted to [Mobisys 2024](https://www.sigmobile.org/mobisys/2023/).
+- **[Feb. 2024]** Our paper about WiFi location privacy protection is accepted to [IPSN 2024](https://www.sigmobile.org/mobisys/2023/).
 - **[Mar. 2023]** Our paper about backscatter localization is accepted to [Mobisys 2023](https://www.sigmobile.org/mobisys/2023/).
-- **[Sep. 2022]** I am admitted to Tsinghua University as a PhD student, still working with my rockstar advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/).
+- **[Sep. 2022]** I am admitted to Tsinghua University as a PhD student, still working with my advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/).
 - **[Aug. 2021]** Our paper about backscatter communication is accepted to [Mobicom 2021](https://www.sigmobile.org/mobicom/2021/index.html).
 - **[Sep. 2019]** I am admitted to Tsinghua University as a master student, working with [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/).
 
 ## Publications
+
+- **WiCloak: Protect Location Privacy of WiFi Devices**
+  <br>
+  **Jinyan Jiang**, Jiliang Wang, Yijie Chen, Shuai Tong, Pengjin Xie, Yihao Liu, Yunhao Liu.
+  <br>
+  In **ACM/IEEE IPSN**, 2024
 
 - **LocRa: Enable Practical Long-Range Backscatter Localization for Low-Cost Tags**
   <br>
