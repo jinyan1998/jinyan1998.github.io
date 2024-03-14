@@ -24,9 +24,15 @@ I am a mediocre (for now) but devoted (knowing everything is a huge burden for m
 
 ## Publications
 
+- **Willow: Practical WiFi Backscatter Localization with Parallel Tags**
+  <br>
+  **Jinyan Jiang**, Jiliang Wang, Yijie Chen, Shuai Tong, Pengjin Xie, Yihao Liu, Yunhao Liu
+  <br>
+  In **ACM Mobisys**, 2024 (Conditionally Accepted)
+
 - **WiCloak: Protect Location Privacy of WiFi Devices**
   <br>
-  **Jinyan Jiang**, Jiliang Wang, Yijie Chen, Shuai Tong, Pengjin Xie, Yihao Liu, Yunhao Liu.
+  **Jinyan Jiang**, , Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
   <br>
   In **ACM/IEEE IPSN**, 2024
 
@@ -34,7 +40,7 @@ I am a mediocre (for now) but devoted (knowing everything is a huge burden for m
   <br>
   **Jinyan Jiang**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
   <br>
-  In ACM International Conference on Mobile Systems, Applications, and Services (**Mobisys**), 2023
+  In **ACM Mobisys**, 2023
   [[PDF](./paper/locra.pdf)]
 
 
@@ -42,8 +48,26 @@ I am a mediocre (for now) but devoted (knowing everything is a huge burden for m
   <br>
   **Jinyan Jiang**, Zhenqiang Xu, Fan Dang, Jiliang Wang
   <br>
-  In ACM International Conference on Mobile Computing and Networking (**Mobicom**), 2021
+  In **ACM Mobicom**, 2021
   [[PDF](./paper/pplora.pdf)]
+
+- **LoMu: Enable Long-Range Multi-Target Backscatter Sensing for Low-Cost Tags**
+  <br>
+  Yihao Liu, **Jinyan Jiang**, Jiliang Wang
+  <br>
+  In **IEEE INFOCOM**, 2024
+
+- **BlueKey: Exploiting Bluetooth Low Energy for Enhanced Physical-Layer Key Generation**
+  <br>
+  Yawen Zheng, Fan Dang, Zihao Yang, **Jinyan Jiang**, Xu Wang, Lin Wang, Kebin Liu, Xinlei Chen, Yunhao Liu
+  <br>
+  In **IEEE INFOCOM**, 2024
+
+- **Prism: High-throughput LoRa Backsactter with Non-linear Chirps**
+  <br>
+  Yidong Ren, Puyu Cai, **Jinyan Jiang**, Jialuo Du, Zhichao Cao
+  <br>
+  In **IEEE INFOCOM**, 2024
 
 ## Honors
 
