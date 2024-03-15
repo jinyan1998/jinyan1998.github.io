@@ -67,7 +67,7 @@ I am a mediocre (hoping I will do better) but devoted (knowing everything is a h
   <br>
   Yidong Ren, Puyu Cai, **Jinyan Jiang**, Jialuo Du, Zhichao Cao
   <br>
-  In **IEEE INFOCOM**, 2024
+  In **IEEE INFOCOM**, 2023
 
 ## Honors
 
