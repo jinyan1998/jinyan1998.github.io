@@ -32,7 +32,7 @@ I am a mediocre (hoping I will do better) but devoted (knowing everything is a h
 
 - **WiCloak: Protect Location Privacy of WiFi Devices**
   <br>
-  **Jinyan Jiang**, , Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
+  **Jinyan Jiang**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
   <br>
   In **ACM/IEEE IPSN**, 2024
 
