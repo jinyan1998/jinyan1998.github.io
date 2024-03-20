@@ -32,13 +32,13 @@ I am a mediocre (hoping I will do better) but devoted (knowing everything is a h
 
 - **WiCloak: Protect Location Privacy of WiFi Devices**
   <br>
-  <u>**Jinyan Jiang**</u>, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
+  **<u>Jinyan Jiang</u>**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
   <br>
   In **ACM/IEEE IPSN**, 2024
 
 - **LocRa: Enable Practical Long-Range Backscatter Localization for Low-Cost Tags**
   <br>
-  **Jinyan Jiang**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
+  **<u>Jinyan Jiang</u>**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
   <br>
   In **ACM Mobisys**, 2023
   [[PDF](./paper/locra.pdf)]
@@ -46,26 +46,26 @@ I am a mediocre (hoping I will do better) but devoted (knowing everything is a h
 
 - **Long-Range Ambient LoRa Backscatter with Parallel Decoding**
   <br>
-  **Jinyan Jiang**, Zhenqiang Xu, Fan Dang, Jiliang Wang
+  **<u>Jinyan Jiang</u>**, Zhenqiang Xu, Fan Dang, Jiliang Wang
   <br>
   In **ACM Mobicom**, 2021
   [[PDF](./paper/pplora.pdf)]
 
 - **LoMu: Enable Long-Range Multi-Target Backscatter Sensing for Low-Cost Tags**
   <br>
-  Yihao Liu, **Jinyan Jiang**, Jiliang Wang
+  Yihao Liu, **<u>Jinyan Jiang</u>**, Jiliang Wang
   <br>
   In **IEEE INFOCOM**, 2024
 
 - **BlueKey: Exploiting Bluetooth Low Energy for Enhanced Physical-Layer Key Generation**
   <br>
-  Yawen Zheng, Fan Dang, Zihao Yang, **Jinyan Jiang**, Xu Wang, Lin Wang, Kebin Liu, Xinlei Chen, Yunhao Liu
+  Yawen Zheng, Fan Dang, Zihao Yang, **<u>Jinyan Jiang</u>**, Xu Wang, Lin Wang, Kebin Liu, Xinlei Chen, Yunhao Liu
   <br>
   In **IEEE INFOCOM**, 2024
 
 - **Prism: High-throughput LoRa Backsactter with Non-linear Chirps**
   <br>
-  Yidong Ren, Puyu Cai, **Jinyan Jiang**, Jialuo Du, Zhichao Cao
+  Yidong Ren, Puyu Cai, **<u>Jinyan Jiang</u>**, Jialuo Du, Zhichao Cao
   <br>
   In **IEEE INFOCOM**, 2023
 
