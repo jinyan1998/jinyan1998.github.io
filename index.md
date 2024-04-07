@@ -15,7 +15,7 @@ I am a mediocre (hoping I will do better) but devoted (knowing everything is a h
 
 ## News
 
-- **[Mar. 2024]** Our paper about WiFi backscatter loalization is going to be accepted to [Mobisys 2024](https://www.sigmobile.org/mobisys/2024/).
+- **[Apr. 2024]** Our paper about WiFi backscatter loalization is accepted to [Mobisys 2024](https://www.sigmobile.org/mobisys/2024/).
 - **[Feb. 2024]** Our paper about WiFi location privacy protection is accepted to [IPSN 2024](https://ipsn.acm.org/2024/).
 - **[Mar. 2023]** Our paper about backscatter localization is accepted to [Mobisys 2023](https://www.sigmobile.org/mobisys/2023/).
 - **[Sep. 2022]** I am admitted to Tsinghua University as a PhD student, still working with my advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/).
@@ -28,7 +28,7 @@ I am a mediocre (hoping I will do better) but devoted (knowing everything is a h
   <br>
   **<u>Jinyan Jiang</u>**, Jiliang Wang, Yijie Chen, Shuai Tong, Pengjin Xie, Yihao Liu, Yunhao Liu
   <br>
-  In **ACM Mobisys**, 2024 (Conditionally Accepted)
+  In **ACM Mobisys**, 2024
 
 - **WiCloak: Protect Location Privacy of WiFi Devices**
   <br>
