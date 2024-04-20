@@ -35,6 +35,7 @@ I am a mediocre (hoping I will do better) but devoted (knowing everything is a h
   **<u>Jinyan Jiang</u>**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
   <br>
   In **ACM/IEEE IPSN**, 2024
+  [[PDF](./paper/WiCloak.pdf)]
 
 - **LocRa: Enable Practical Long-Range Backscatter Localization for Low-Cost Tags**
   <br>
