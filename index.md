@@ -29,6 +29,7 @@ I am a mediocre (hoping I will do better) but devoted (knowing everything is a h
   **<u>Jinyan Jiang</u>**, Jiliang Wang, Yijie Chen, Shuai Tong, Pengjin Xie, Yihao Liu, Yunhao Liu
   <br>
   In **ACM Mobisys**, 2024
+  [[PDF](./paper/willow_final.pdf)]
 
 - **WiCloak: Protect Location Privacy of WiFi Devices**
   <br>
