@@ -33,7 +33,7 @@ I am a devoted (knowing everything is a huge burden for me) researcher on wirele
 
 - **WiCloak: Protect Location Privacy of WiFi Devices**
   <br>
-  **<u>Jinyan Jiang</u>**, Jiliang Wang, Yijie Chen, Yihao Liu, Yunhao Liu
+  **<u>Jinyan Jiang</u>**, Jiliang Wang, Yihao Liu, Yijie Chen, Yunhao Liu
   <br>
   **<font color=red>ACM/IEEE IPSN 2024</font>**
   [[PDF](./paper/WiCloak.pdf)]
