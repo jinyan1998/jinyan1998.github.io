@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a second-year Ph.D. student in Software Engineering at the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), mentored by my insightful/kind advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/). 
+I am a second-year Ph.D. student in Software Engineering at the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), mentored by my insightful and kind advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/). 
 I received my Master's (2023) from Tsinghua University and my Bachelor's (2020) from Central South University.
 I am a devoted (knowing everything is a huge burden for me) researcher on wireless networks.
 
@@ -15,7 +15,7 @@ I am a devoted (knowing everything is a huge burden for me) researcher on wirele
 
 ## News
 
-- **[Apr. 2024]** Our paper about WiFi backscatter loalization is accepted to [Mobisys 2024](https://www.sigmobile.org/mobisys/2024/).
+- **[Apr. 2024]** Our paper about WiFi backscatter localization is accepted to [Mobisys 2024](https://www.sigmobile.org/mobisys/2024/).
 - **[Feb. 2024]** Our paper about WiFi location privacy protection is accepted to [IPSN 2024](https://ipsn.acm.org/2024/).
 - **[Mar. 2023]** Our paper about backscatter localization is accepted to [Mobisys 2023](https://www.sigmobile.org/mobisys/2023/).
 - **[Sep. 2022]** I am admitted to Tsinghua University as a PhD student, still working with my advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/).
@@ -65,7 +65,7 @@ I am a devoted (knowing everything is a huge burden for me) researcher on wirele
   <br>
   **<font color=red>IEEE INFOCOM 2024</font>**
 
-- **Prism: High-throughput LoRa Backsactter with Non-linear Chirps**
+- **Prism: High-Throughput LoRa Backscatter with Non-linear Chirps**
   <br>
   Yidong Ren, Puyu Cai, **<u>Jinyan Jiang</u>**, Jialuo Du, Zhichao Cao
   <br>
