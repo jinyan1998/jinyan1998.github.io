@@ -6,7 +6,7 @@ layout: homepage
 
 I am a third-year Ph.D. student in Software Engineering at the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), mentored by my insightful and kind advisor [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/). 
 I received my Master's (2023) from Tsinghua University and my Bachelor's (2020) from Central South University.
-I am a devoted (knowing everything is a huge burden for me) researcher on wireless networks.
+I am a devoted (knowing that everything is a huge burden for me) researcher on wireless networks.
 
 ## Research Interests
 
