@@ -26,7 +26,7 @@
     {% endif %}
 
     <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#9679;</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill='%23ffcc00' width='100' height='100'/></svg>">
 
     <!-- Link to CSS -->
     <link rel="stylesheet" href="./assets/css/retro-90s.css">
@@ -39,20 +39,32 @@
 
     <!-- Main Table Layout -->
     <table class="main-table" border="0" cellpadding="0" cellspacing="0">
-      <!-- Header -->
+
+      <!-- Top Banner with Icon -->
       <tr>
-        <td class="header-bar" colspan="2">
-          <h1>{{ site.title }} - {{ site.titlecn }}</h1>
-          <h2>{{ site.position }} | {{ site.affiliation }}</h2>
+        <td class="top-banner" colspan="2">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td>
+                <span class="site-icon"></span>
+                <span class="site-title">{{ site.title }} <span>| {{ site.titlecn }}</span></span>
+              </td>
+              <td align="right" style="color: #ffffff; font-size: 10px;">
+                {{ site.position }} | {{ site.affiliation }}
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
 
-      <!-- Navigation -->
+      <!-- Top Navigation -->
       <tr>
-        <td class="nav-bar" colspan="2">
+        <td class="top-nav" colspan="2">
           <a href="#">Home</a>
           <a href="#research">Research</a>
           <a href="#publications">Publications</a>
+          <a href="#news">News</a>
+          <a href="#honors">Honors</a>
           <a href="mailto:{{ site.email }}">Contact</a>
         </td>
       </tr>
@@ -60,7 +72,7 @@
       <!-- Sidebar + Content -->
       <tr>
         <!-- Left Sidebar -->
-        <td class="sidebar">
+        <td class="sidebar" valign="top">
           <!-- Avatar -->
           <div class="avatar-container">
             {% if site.avatar %}
@@ -68,28 +80,37 @@
             {% endif %}
           </div>
 
+          <!-- Quick Links -->
+          <div class="sidebar-section">
+            <h4>Quick Links</h4>
+            <a href="#">◇ About Me</a>
+            <a href="#research">◇ Research</a>
+            <a href="#publications">◇ Publications</a>
+            <a href="#news">◇ News</a>
+            <a href="#honors">◇ Honors</a>
+          </div>
+
           <!-- Contact -->
           <div class="sidebar-section">
             <h4>Contact</h4>
             <div class="sidebar-text">
-              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              <p style="margin-bottom: 5px;">Email:</p>
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
             </div>
           </div>
 
           <!-- Links -->
           <div class="sidebar-section">
-            <h4>Links</h4>
-            <div class="sidebar-text">
-              {% if site.google_scholar %}
-              <p><a href="{{ site.google_scholar }}" target="_blank">Google Scholar</a></p>
-              {% endif %}
-              {% if site.cv_link %}
-              <p><a href="{{ site.cv_link }}" target="_blank">CV</a></p>
-              {% endif %}
-              {% if site.telegram %}
-              <p><a href="{{ site.telegram }}" target="_blank">Telegram</a></p>
-              {% endif %}
-            </div>
+            <h4>Resources</h4>
+            {% if site.google_scholar %}
+            <a href="{{ site.google_scholar }}" target="_blank">◇ Google Scholar</a>
+            {% endif %}
+            {% if site.cv_link %}
+            <a href="{{ site.cv_link }}" target="_blank">◇ Curriculum Vitae</a>
+            {% endif %}
+            {% if site.telegram %}
+            <a href="{{ site.telegram }}" target="_blank">◇ Telegram</a>
+            {% endif %}
           </div>
 
           <!-- Address -->
@@ -98,13 +119,18 @@
             <div class="sidebar-text">
               <p>School of Software</p>
               <p>Tsinghua University</p>
-              <p>Beijing, China</p>
+              <p>Beijing, P.R. China</p>
             </div>
           </div>
         </td>
 
         <!-- Main Content -->
-        <td class="content">
+        <td class="content" valign="top">
+
+          <!-- About Me Section -->
+          <div class="section-title">
+            <h2>About Me</h2>
+          </div>
 
           {{ content }}
 
@@ -115,8 +141,10 @@
       <tr>
         <td class="footer" colspan="2">
           &copy; 2026 {{ site.title }}. All rights reserved.
-          | <a href="#">Top</a>
+          | <a href="#">Home</a>
+          | <a href="#top">Top</a>
           | <a href="mailto:{{ site.email }}">Contact</a>
+          | <a href="{{ site.google_scholar }}">Google Scholar</a>
         </td>
       </tr>
     </table>
