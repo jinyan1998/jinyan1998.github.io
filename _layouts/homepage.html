@@ -49,8 +49,8 @@
                 <span class="site-icon">★</span>
                 <span class="site-title">{{ site.title }} <span>| {{ site.titlecn }}</span></span>
               </td>
-              <td align="right" style="color: #ffffff; font-size: 10px;">
-                Welcome to my homepage!
+              <td align="right" style="color: #ffffff; font-size: 12px;">
+                ★ Welcome to my homepage! ★
               </td>
             </tr>
           </table>
@@ -91,7 +91,7 @@
             <h4>Contact</h4>
             <div class="sidebar-text">
               <p style="margin-bottom: 4px;">Email:</p>
-              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+              <a class="email-link" href="mailto:{{ site.email }}">{{ site.email }}</a>
             </div>
           </div>
 
@@ -119,21 +119,15 @@
             </div>
           </div>
 
-          <!-- Last Updated -->
+          <!-- Visitor Counter -->
           <div class="sidebar-section" style="text-align: center;">
-            <div class="update-banner">
-              Last Updated:<br>Mar 2026
-            </div>
+            <h4>Visitors</h4>
+            <div class="hit-counter">00<span id="visitor">847</span></div>
           </div>
         </td>
 
         <!-- Main Content -->
         <td class="content" valign="top">
-
-          <!-- About Me Section -->
-          <div class="section-title">
-            <h2>About Me</h2>
-          </div>
 
           {{ content }}
 
@@ -151,6 +145,18 @@
         </td>
       </tr>
     </table>
+
+    <!-- Visitor Counter Script -->
+    <script>
+      function updateCounter() {
+        var count = Math.floor(Math.random() * 900) + 100;
+        var counter = document.getElementById('visitor');
+        if(counter) {
+          counter.innerText = count;
+        }
+      }
+      updateCounter();
+    </script>
 
     {% if site.google_analytics %}
     <script>
