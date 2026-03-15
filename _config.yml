@@ -43,8 +43,8 @@ font: "Serif" # or "Sans Serif"
 google_analytics: G-KW97BGY05Y
 
 # Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
+# Disabled - using custom retro theme instead
+# remote_theme: yaoyao-liu/minimal-light
 
 # The following files will be removed from the generated website.
 exclude:
