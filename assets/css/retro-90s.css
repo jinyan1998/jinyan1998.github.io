@@ -1,6 +1,5 @@
-/* Classic 2000s Academic Style */
+/* Classic 2000s Website Style - Based on PocketGear */
 
-/* Global Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,20 +7,19 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12pt;
-  background: #c0c0c0;
-  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background: #f2f2f2;
+  color: #333333;
   min-height: 100vh;
-  line-height: 1.4;
 }
 
-/* Main Container - Classic Table Layout */
+/* Main Container - Table Layout */
 table.main-table {
-  width: 800px;
-  margin: 10px auto;
+  width: 900px;
+  margin: 15px auto;
   background: #ffffff;
-  border: 2px solid #000000;
+  border: 1px solid #999999;
 }
 
 table.main-table td {
@@ -29,247 +27,247 @@ table.main-table td {
   vertical-align: top;
 }
 
-/* Header Section */
-.header-bar {
-  background: #000080;
-  color: #ffffff;
-  padding: 8px 15px;
-  text-align: center;
-}
-
-.header-bar h1 {
-  font-size: 18pt;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.header-bar h2 {
-  font-size: 12pt;
-  font-weight: normal;
-  margin-top: 3px;
-}
-
-/* Navigation Sidebar */
+/* Left Sidebar - Dark Gray */
 .sidebar {
-  width: 180px;
-  background: #f0f0f0;
-  border-right: 1px solid #999999;
+  width: 150px;
+  background: #333333;
   padding: 10px;
 }
 
-.sidebar-box {
-  background: #ffffff;
-  border: 2px outset #cccccc;
-  padding: 8px;
-  margin-bottom: 15px;
-}
-
-.sidebar-box h3 {
-  font-size: 10pt;
-  color: #000080;
-  border-bottom: 1px solid #cccccc;
-  padding-bottom: 4px;
-  margin-bottom: 8px;
+.sidebar-text {
+  color: #cccccc;
+  font-size: 11px;
+  line-height: 1.5;
 }
 
 .sidebar a {
-  display: block;
-  color: #0000ee;
+  color: #6699ff;
   text-decoration: none;
-  padding: 3px 5px;
-  font-size: 10pt;
+  font-size: 11px;
 }
 
 .sidebar a:hover {
-  color: #ff0000;
   text-decoration: underline;
 }
 
-/* Avatar */
+/* Avatar - Small Circle */
 .avatar-container {
   text-align: center;
   margin-bottom: 15px;
 }
 
 .avatar-container img {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #666666;
   object-fit: cover;
-  border: 2px outset #cccccc;
-  background: #ffffff;
 }
 
-/* Contact Info */
-.contact-info {
-  font-size: 9pt;
-  color: #333333;
+/* Contact Section in Sidebar */
+.sidebar-section {
+  margin-bottom: 15px;
 }
 
-.contact-info a {
-  color: #0000ee;
+.sidebar-section h4 {
+  color: #ffffff;
+  font-size: 11px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #666666;
+  padding-bottom: 3px;
 }
 
 /* Main Content Area */
 .content {
-  padding: 15px 20px;
-  background: #ffffff;
+  padding: 15px;
+}
+
+/* Blue Header Bar */
+.header-bar {
+  background: #4169e1;
+  color: #ffffff;
+  padding: 8px 15px;
+}
+
+.header-bar h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-bar h2 {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 2px;
+}
+
+/* Navigation */
+.nav-bar {
+  background: #f0f0f0;
+  border-bottom: 1px solid #cccccc;
+  padding: 5px 15px;
+}
+
+.nav-bar a {
+  color: #0000ff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 11px;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
 }
 
 /* Section Headers */
 .content h2 {
-  font-size: 14pt;
-  color: #000080;
-  border-bottom: 1px solid #000080;
-  padding-bottom: 4px;
-  margin: 20px 0 12px 0;
+  font-size: 14px;
+  color: #4169e1;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 5px;
+  margin: 15px 0 10px 0;
 }
 
 .content h2:first-child {
   margin-top: 0;
 }
 
-/* Content paragraphs */
+/* Content */
 .content p {
   margin: 8px 0;
-  font-size: 11pt;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 /* Links */
 a {
-  color: #0000ee;
+  color: #0000ff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff0000;
   text-decoration: underline;
 }
 
 /* Lists */
 .content ul, .content ol {
-  margin: 8px 0 8px 25px;
+  margin: 8px 0 8px 20px;
 }
 
 .content li {
   margin: 4px 0;
-  font-size: 11pt;
+  font-size: 12px;
 }
 
-/* Publications */
+/* Publications Box */
 .pub-item {
   border: 1px solid #cccccc;
   padding: 10px;
-  margin: 12px 0;
+  margin: 10px 0;
   background: #fafafa;
 }
 
 .pub-title {
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 12px;
   color: #000000;
 }
 
 .pub-authors {
-  font-size: 10pt;
-  color: #444444;
-  margin: 4px 0;
+  font-size: 11px;
+  color: #555555;
+  margin: 3px 0;
 }
 
 .pub-venue {
-  font-size: 10pt;
-  color: #0000ee;
+  font-size: 11px;
+  color: #0000ff;
   font-weight: 500;
 }
 
 .pub-link {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 4px;
   padding: 2px 8px;
-  font-size: 9pt;
-  border: 1px outset #cccccc;
+  font-size: 10px;
+  border: 1px solid #cccccc;
   background: #f0f0f0;
   color: #333333 !important;
   text-decoration: none !important;
 }
 
 .pub-link:hover {
-  border: 1px inset #cccccc;
-  text-decoration: none;
+  background: #e0e0e0;
 }
 
-/* News items */
+/* News */
 .news-item {
-  font-size: 10pt;
-  margin: 6px 0;
+  font-size: 11px;
+  margin: 5px 0;
+  padding-left: 10px;
+}
+
+.news-item::before {
+  content: "▪ ";
+  color: #4169e1;
 }
 
 /* Honors */
 .honor-item {
-  font-size: 10pt;
+  font-size: 11px;
   margin: 4px 0;
 }
 
-/* HR */
-hr {
-  border: 0;
-  height: 1px;
-  background: #999999;
-  margin: 20px 0;
+.honor-item::before {
+  content: "▪ ";
+  color: #4169e1;
 }
 
 /* Footer */
 .footer {
   background: #f0f0f0;
-  border-top: 1px solid #999999;
+  border-top: 1px solid #cccccc;
   padding: 8px;
   text-align: center;
-  font-size: 9pt;
+  font-size: 10px;
   color: #666666;
 }
 
 .footer a {
-  color: #0000ee;
+  color: #0000ff;
 }
 
-/* Horizontal menu */
-.nav-menu {
-  background: #000080;
-  padding: 4px 10px;
-  text-align: center;
+/* Research Interests */
+.research-list {
+  list-style: none;
+  margin: 10px 0;
 }
 
-.nav-menu a {
-  color: #ffffff;
-  margin: 0 10px;
-  font-size: 10pt;
+.research-list li {
+  margin: 5px 0;
+  font-size: 12px;
 }
 
-.nav-menu a:hover {
-  color: #ffff00;
-  text-decoration: underline;
+.research-list strong {
+  color: #333333;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 820px) {
+/* Mobile */
+@media (max-width: 920px) {
   table.main-table {
     width: 100%;
   }
 
   .sidebar {
     width: 100%;
-    border-right: none;
-    border-bottom: 1px solid #999999;
   }
 
-  .sidebar-box {
+  .sidebar td {
     display: inline-block;
-    margin-right: 10px;
     vertical-align: top;
   }
 }
 
-/* Selection */
 ::selection {
-  background: #000080;
+  background: #4169e1;
   color: #ffffff;
 }
