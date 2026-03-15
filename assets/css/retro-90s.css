@@ -168,7 +168,8 @@ table.main-table td {
 
 /* Main Content */
 .content {
-  padding: 15px 25px;
+  padding: 15px 30px;
+  padding-left: 35px;
 }
 
 /* Section Title Bar */
