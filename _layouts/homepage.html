@@ -119,11 +119,6 @@
             </div>
           </div>
 
-          <!-- Visitor Counter -->
-          <div class="sidebar-section" style="text-align: center;">
-            <h4>Visitors</h4>
-            <div class="hit-counter">00<span id="visitor">847</span></div>
-          </div>
         </td>
 
         <!-- Main Content -->
@@ -146,17 +141,12 @@
       </tr>
     </table>
 
-    <!-- Visitor Counter Script -->
-    <script>
-      function updateCounter() {
-        var count = Math.floor(Math.random() * 900) + 100;
-        var counter = document.getElementById('visitor');
-        if(counter) {
-          counter.innerText = count;
-        }
-      }
-      updateCounter();
-    </script>
+    <!-- ClustrMaps -->
+    {% if site.enable_footnote %}
+    <div style="text-align: center; margin: 15px 0;">
+      <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=bfbfbf&w=159&t=n&d=_gP0eHbvJc5hdx_hq19IyvSz8IuW6kfM9q-SEvm_Rmw&co=ffffff&cmo=898989&cmn=656565&ct=b2b2b2'></script>
+    </div>
+    {% endif %}
 
     {% if site.google_analytics %}
     <script>
