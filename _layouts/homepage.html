@@ -25,7 +25,7 @@
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
 
-    <!-- Favicon -->
+    <!-- Classic favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#9679;</text></svg>">
 
     <!-- Link to CSS -->
@@ -37,103 +37,96 @@
   </head>
   <body>
 
-    <div class="wrapper">
+    <!-- Main Table Layout -->
+    <table class="main-table" border="0" cellpadding="0" cellspacing="0">
+      <!-- Header -->
+      <tr>
+        <td class="header-bar" colspan="2">
+          <h1>{{ site.title }} - {{ site.titlecn }}</h1>
+          <h2>{{ site.position }} | {{ site.affiliation }}</h2>
+        </td>
+      </tr>
 
-      <!-- Header with avatar -->
-      <header>
-        {% if site.avatar %}
-        <div class="avatar-frame">
-          <img src="{{ site.avatar }}" alt="avatar" />
-        </div>
-        {% endif %}
-
-        <h1>{{ site.title }}</h1>
-        <h2>{{ site.titlecn }}</h2>
-
-        {% if site.position %}
-        <p><strong>{{ site.position }}</strong></p>
-        {% endif %}
-
-        {% if site.affiliation %}
-        <p><a href="{{ site.affiliation_link }}" rel="noopener">{{ site.affiliation }}</a></p>
-        {% endif %}
-
-        {% if site.email %}
-        <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        {% endif %}
-
-        <br>
-
-        <!-- Social Icons -->
-        <div class="social-icons">
-        {% if site.google_scholar %}
-        <a href="{{ site.google_scholar }}" target="_blank">
-          <i class="ai ai-google-scholar"></i> Google Scholar
-        </a>
-        {% endif %}
-
-        {% if site.cv_link %}
-        <a href="{{ site.cv_link }}" target="_blank">
-          <i class="ai ai-cv"></i> CV
-        </a>
-        {% endif %}
-
-        {% if site.github_link %}
-        <a href="{{ site.github_link }}" target="_blank">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a href="{{ site.linkedin }}" target="_blank">
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-        {% endif %}
-
-        {% if site.telegram %}
-        <a href="{{ site.telegram }}" target="_blank">
-          <i class="fab fa-telegram-plane"></i> Telegram
-        </a>
-        {% endif %}
-
-        {% if site.twitter %}
-        <a href="{{ site.twitter }}" target="_blank">
-          <i class="fab fa-twitter"></i> Twitter
-        </a>
-        {% endif %}
-        </div>
-
-      </header>
-
-      <hr class="retro">
-
-      <section>
-
-        {{ content }}
-
-      </section>
-
-      <hr class="retro">
-
-      <footer>
-        <p>&copy; 2026 {{ site.title }}. All rights reserved.</p>
-
-        <p>
-          <a href="#">Home</a> |
-          <a href="#top">Top</a> |
+      <!-- Navigation -->
+      <tr>
+        <td class="nav-menu" colspan="2">
+          <a href="#">Home</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
           <a href="mailto:{{ site.email }}">Contact</a>
-        </p>
+        </td>
+      </tr>
 
-        <!-- ClustrMaps -->
-        {% if site.enable_footnote %}
-        <p style="margin-top: 15px;">
-          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=cccccc&w=150&t=n&d=_gP0eHbvJc5hdx_hq19IyvSz8IuW6kfM9q-SEvm_Rmw&co=ffffff&cmo=666666&cmn=333333&ct=666666'></script>
-        </p>
-        {% endif %}
+      <!-- Sidebar + Content -->
+      <tr>
+        <!-- Left Sidebar -->
+        <td class="sidebar">
+          <!-- Avatar -->
+          <div class="avatar-container">
+            {% if site.avatar %}
+            <img src="{{ site.avatar }}" alt="avatar" />
+            {% endif %}
+          </div>
 
-      </footer>
+          <!-- Contact Box -->
+          <div class="sidebar-box">
+            <h3>Contact</h3>
+            <div class="contact-info">
+              <p><strong>Email:</strong><br>
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            </div>
+          </div>
 
-    </div>
+          <!-- Links Box -->
+          <div class="sidebar-box">
+            <h3>Links</h3>
+            {% if site.google_scholar %}
+            <a href="{{ site.google_scholar }}" target="_blank">
+              <i class="ai ai-google-scholar"></i> Google Scholar
+            </a>
+            {% endif %}
+            {% if site.cv_link %}
+            <a href="{{ site.cv_link }}" target="_blank">
+              <i class="ai ai-cv"></i> Curriculum Vitae
+            </a>
+            {% endif %}
+            {% if site.telegram %}
+            <a href="{{ site.telegram }}" target="_blank">
+              <i class="fab fa-telegram-plane"></i> Telegram
+            </a>
+            {% endif %}
+          </div>
+
+          <!-- Address Box -->
+          <div class="sidebar-box">
+            <h3>Address</h3>
+            <div class="contact-info">
+              <p>School of Software<br>
+              Tsinghua University<br>
+              Beijing, China</p>
+            </div>
+          </div>
+        </td>
+
+        <!-- Main Content -->
+        <td class="content">
+
+          {{ content }}
+
+        </td>
+      </tr>
+
+      <!-- Footer -->
+      <tr>
+        <td class="footer" colspan="2">
+          <p>
+            &copy; 2026 {{ site.title }}. All rights reserved.
+            | <a href="#">Top</a>
+            | <a href="mailto:{{ site.email }}">Contact</a>
+          </p>
+        </td>
+      </tr>
+    </table>
 
     {% if site.google_analytics %}
     <script>
