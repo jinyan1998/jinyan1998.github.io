@@ -119,6 +119,16 @@
             </div>
           </div>
 
+          <!-- Visitor Map -->
+          {% if site.enable_footnote %}
+          <div class="sidebar-section" style="text-align: center;">
+            <h4>Visitor Map</h4>
+            <div style="background: #ffffff; border: 2px inset #999999; padding: 4px;">
+              <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=00ff00&w=120&t=n&d=_gP0eHbvJc5hdx_hq19IyvSz8IuW6kfM9q-SEvm_Rmw&co=000033&cmo=00ff00&cmn=ffff00&ct=ff00ff'></script>
+            </div>
+          </div>
+          {% endif %}
+
         </td>
 
         <!-- Main Content -->
@@ -137,10 +147,6 @@
           | <a href="#top">Top</a>
           | <a href="mailto:{{ site.email }}">Contact</a>
           | <a href="{{ site.google_scholar }}">Google Scholar</a>
-          {% if site.enable_footnote %}
-          <br><br>
-          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=bfbfbf&w=200&t=n&d=_gP0eHbvJc5hdx_hq19IyvSz8IuW6kfM9q-SEvm_Rmw&co=ffffff&cmo=898989&cmn=656565&ct=b2b2b2'></script>
-          {% endif %}
         </td>
       </tr>
     </table>
