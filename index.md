@@ -8,7 +8,7 @@ I am a third-year Ph.D. student in Software Engineering at the [School of Softwa
 
 I received my Master's (2023) from Tsinghua University and my Bachelor's (2020) from Central South University.
 
-I am a devoted (knowing that everything is a huge burden for me) researcher on wireless networks.
+I am a devoted researcher on wireless networks.
 
 ---
 
@@ -21,11 +21,11 @@ I am a devoted (knowing that everything is a huge burden for me) researcher on w
 
 ## News
 
-- **[Apr. 2024]** Our paper about WiFi backscatter localization is accepted to [Mobisys 2024](https://www.sigmobile.org/mobisys/2024/)!
-- **[Feb. 2024]** Our paper about WiFi location privacy protection is accepted to [IPSN 2024](https://ipsn.acm.org/2024/)!
-- **[Mar. 2023]** Our paper about backscatter localization is accepted to [Mobisys 2023](https://www.sigmobile.org/mobisys/2023/)!
+- **[Apr. 2024]** Our paper about WiFi backscatter localization is accepted to [Mobisys 2024](https://www.sigmobile.org/mobisys/2024/).
+- **[Feb. 2024]** Our paper about WiFi location privacy protection is accepted to [IPSN 2024](https://ipsn.acm.org/2024/).
+- **[Mar. 2023]** Our paper about backscatter localization is accepted to [Mobisys 2023](https://www.sigmobile.org/mobisys/2023/).
 - **[Sep. 2022]** I am admitted to Tsinghua University as a PhD student, still working with my advisor Prof. Jiliang Wang.
-- **[Aug. 2021]** Our paper about backscatter communication is accepted to [Mobicom 2021](https://www.sigmobile.org/mobicom/2021/index.html)!
+- **[Aug. 2021]** Our paper about backscatter communication is accepted to [Mobicom 2021](https://www.sigmobile.org/mobicom/2021/index.html).
 - **[Sep. 2019]** I am admitted to Tsinghua University as a master student, working with Prof. Jiliang Wang.
 
 ---

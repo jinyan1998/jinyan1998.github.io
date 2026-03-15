@@ -25,10 +25,10 @@
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
 
-    <!-- Retro Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>★</text></svg>">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#9679;</text></svg>">
 
-    <!-- Link to retro CSS -->
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="./assets/css/retro-90s.css">
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
@@ -36,13 +36,6 @@
 
   </head>
   <body>
-
-    <!-- Welcome Marquee -->
-    <div class="marquee-container">
-      <marquee class="marquee-text" scrollamount="5" scrolldelay="100">
-        ★ Welcome to My Homepage! ★ Research Interests: Wireless Networks, IoT, Backscatter Communication ★ Feel free to contact me! ★
-      </marquee>
-    </div>
 
     <div class="wrapper">
 
@@ -55,7 +48,7 @@
         {% endif %}
 
         <h1>{{ site.title }}</h1>
-        <h2 class="rainbow">{{ site.titlecn }}</h2>
+        <h2>{{ site.titlecn }}</h2>
 
         {% if site.position %}
         <p><strong>{{ site.position }}</strong></p>
@@ -110,51 +103,20 @@
         {% endif %}
         </div>
 
-        <br>
-
-        <!-- Under Construction Banner -->
-        <div class="under-construction">
-          <h3>🚧 UNDER CONSTRUCTION 🚧</h3>
-          <p class="blink">Last updated: March 2026</p>
-        </div>
-
       </header>
 
       <hr class="retro">
 
       <section>
 
-        <!-- Main content in table layout -->
-        <table class="retro-table" border="0">
-          <tr>
-            <td colspan="2">
-
-              {{ content }}
-
-            </td>
-          </tr>
-        </table>
+        {{ content }}
 
       </section>
 
       <hr class="retro">
 
       <footer>
-        <p class="blink">★ Thanks for visiting my page! ★</p>
-
-        <!-- Visitor Counter -->
-        <div style="margin: 15px 0;">
-          <p>You are visitor number:</p>
-          <div class="visitor-counter">0000<span id="visitor">1</span>7</div>
-        </div>
-
-        <p>
-          <small>
-            Best viewed with Netscape Navigator 4.0+<br>
-            Resolution: 800x600 or higher<br>
-            © 2026 {{ site.title }}. All rights reserved.
-          </small>
-        </p>
+        <p>&copy; 2026 {{ site.title }}. All rights reserved.</p>
 
         <p>
           <a href="#">Home</a> |
@@ -165,26 +127,13 @@
         <!-- ClustrMaps -->
         {% if site.enable_footnote %}
         <p style="margin-top: 15px;">
-          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=00ff00&w=150&t=n&d=_gP0eHbvJc5hdx_hq19IyvSz8IuW6kfM9q-SEvm_Rmw&co=000033&cmo=00ff00&cmn=ffff00&ct=ff00ff'></script>
+          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=cccccc&w=150&t=n&d=_gP0eHbvJc5hdx_hq19IyvSz8IuW6kfM9q-SEvm_Rmw&co=ffffff&cmo=666666&cmn=333333&ct=666666'></script>
         </p>
         {% endif %}
 
       </footer>
 
     </div>
-
-    <!-- Script for visitor counter -->
-    <script>
-      // Simple visitor counter simulation
-      function updateCounter() {
-        var count = Math.floor(Math.random() * 900) + 100;
-        var counter = document.getElementById('visitor');
-        if(counter) {
-          counter.innerText = count;
-        }
-      }
-      updateCounter();
-    </script>
 
     {% if site.google_analytics %}
     <script>
