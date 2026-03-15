@@ -67,15 +67,15 @@ table.main-table td {
 .top-nav {
   background: #cccccc;
   border-bottom: 2px solid #999999;
-  padding: 6px 18px;
+  padding: 8px 18px;
 }
 
 .top-nav a {
   color: #0000cc;
   text-decoration: none;
-  padding: 4px 12px;
+  padding: 5px 14px;
   margin-right: 4px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   border: 1px solid #999999;
   background: #f0f0f0;
@@ -169,7 +169,7 @@ table.main-table td {
 /* Main Content */
 .content {
   padding: 15px 30px;
-  padding-left: 35px;
+  padding-left: 175px;
 }
 
 /* Section Title Bar */
