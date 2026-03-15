@@ -44,6 +44,10 @@ table.main-table td {
   border: 1px solid #999999;
   display: inline-block;
   margin-right: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+  color: #000;
 }
 
 .site-title {
@@ -80,7 +84,7 @@ table.main-table td {
 
 /* Left Sidebar */
 .sidebar {
-  width: 160px;
+  width: 155px;
   background: #444444;
   padding: 10px 8px;
 }
@@ -108,10 +112,10 @@ table.main-table td {
 /* Avatar */
 .avatar-container {
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding: 8px;
   background: #555555;
-  border: 1px solid #666666;
+  border: 2px outset #666666;
 }
 
 .avatar-container img {
@@ -123,9 +127,27 @@ table.main-table td {
   margin: 0 auto;
 }
 
+/* Name under avatar */
+.avatar-name {
+  text-align: center;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Position under name */
+.avatar-position {
+  text-align: center;
+  color: #99ccff;
+  font-size: 9px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
 /* Sidebar Section */
 .sidebar-section {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   padding: 8px;
   background: #505050;
   border: 1px solid #666666;
@@ -142,26 +164,26 @@ table.main-table td {
 
 /* Main Content */
 .content {
-  padding: 15px 20px;
+  padding: 12px 18px;
 }
 
 /* Section Title Bar */
 .section-title {
   background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
   border: 1px solid #cccccc;
-  padding: 6px 12px;
-  margin-bottom: 15px;
+  padding: 5px 10px;
+  margin: 15px 0 12px 0;
 }
 
 .section-title h2 {
-  font-size: 13px;
+  font-size: 12px;
   color: #333333;
   font-weight: bold;
 }
 
 /* Content paragraphs */
 .content p {
-  margin: 8px 0;
+  margin: 6px 0;
   font-size: 11px;
   line-height: 1.5;
 }
@@ -179,19 +201,19 @@ a:hover {
 
 /* Lists */
 .content ul, .content ol {
-  margin: 8px 0 8px 20px;
+  margin: 6px 0 6px 18px;
 }
 
 .content li {
-  margin: 4px 0;
+  margin: 3px 0;
   font-size: 11px;
 }
 
 /* Publications Box */
 .pub-item {
   border: 1px solid #cccccc;
-  padding: 10px 12px;
-  margin: 10px 0;
+  padding: 8px 10px;
+  margin: 8px 0;
   background: #f9f9f9;
 }
 
@@ -204,7 +226,7 @@ a:hover {
 .pub-authors {
   font-size: 10px;
   color: #555555;
-  margin: 3px 0;
+  margin: 2px 0;
 }
 
 .pub-venue {
@@ -215,8 +237,8 @@ a:hover {
 
 .pub-link {
   display: inline-block;
-  margin-top: 5px;
-  padding: 2px 10px;
+  margin-top: 4px;
+  padding: 2px 8px;
   font-size: 9px;
   border: 1px solid #999999;
   background: #f0f0f0;
@@ -232,8 +254,8 @@ a:hover {
 /* News Items */
 .news-item {
   font-size: 10px;
-  margin: 6px 0;
-  padding: 4px 8px;
+  margin: 5px 0;
+  padding: 3px 8px;
   background: #f5f5f5;
   border-left: 3px solid #4a90d9;
 }
@@ -258,8 +280,8 @@ a:hover {
 /* Research Box */
 .research-box {
   border: 1px solid #cccccc;
-  padding: 12px;
-  margin: 10px 0;
+  padding: 10px;
+  margin: 8px 0;
   background: #f5f5f5;
 }
 
@@ -269,9 +291,9 @@ a:hover {
 }
 
 .research-list li {
-  margin: 5px 0;
+  margin: 4px 0;
   font-size: 11px;
-  padding-left: 15px;
+  padding-left: 12px;
 }
 
 .research-list li::before {
@@ -283,7 +305,7 @@ a:hover {
 .footer {
   background: #f0f0f0;
   border-top: 1px solid #cccccc;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
   font-size: 9px;
   color: #666666;
@@ -298,7 +320,29 @@ hr {
   border: 0;
   height: 1px;
   background: #cccccc;
-  margin: 15px 0;
+  margin: 12px 0;
+}
+
+/* Last updated banner */
+.update-banner {
+  background: #ffffcc;
+  border: 1px solid #cccc00;
+  padding: 4px 8px;
+  margin: 8px 0;
+  font-size: 9px;
+  color: #666600;
+  text-align: center;
+}
+
+/* Hit counter style */
+.hit-counter {
+  background: #000000;
+  border: 2px inset #666666;
+  padding: 2px 8px;
+  font-family: "Courier New", monospace;
+  color: #00ff00;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 /* Mobile */
