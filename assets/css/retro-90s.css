@@ -66,16 +66,16 @@ table.main-table td {
 /* Top Navigation */
 .top-nav {
   background: #cccccc;
-  border-bottom: 2px solid #999999;
-  padding: 8px 18px;
+  border-bottom: 3px solid #999999;
+  padding: 12px 18px;
 }
 
 .top-nav a {
   color: #0000cc;
   text-decoration: none;
-  padding: 5px 14px;
-  margin-right: 4px;
-  font-size: 12px;
+  padding: 4px 12px;
+  margin-right: 3px;
+  font-size: 11px;
   font-weight: bold;
   border: 1px solid #999999;
   background: #f0f0f0;
@@ -89,7 +89,7 @@ table.main-table td {
 
 /* Left Sidebar */
 .sidebar {
-  width: 165px;
+  width: 180px;
   background: #444444;
   padding: 12px 10px;
 }
@@ -169,7 +169,7 @@ table.main-table td {
 /* Main Content */
 .content {
   padding: 15px 30px;
-  padding-left: 175px;
+  padding-left: 200px;
 }
 
 /* Section Title Bar */
