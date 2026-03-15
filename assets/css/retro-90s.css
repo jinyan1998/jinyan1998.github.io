@@ -66,8 +66,8 @@ table.main-table td {
 /* Top Navigation */
 .top-nav {
   background: #cccccc;
-  border-bottom: 3px solid #999999;
-  padding: 6px 18px;
+  border-bottom: 1px solid #999999;
+  padding: 10px 18px;
 }
 
 .top-nav a {
@@ -169,7 +169,7 @@ table.main-table td {
 /* Main Content */
 .content {
   padding: 15px 30px;
-  padding-left: 220px;
+  padding-left: 250px;
 }
 
 /* Section Title Bar */
