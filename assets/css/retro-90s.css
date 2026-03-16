@@ -354,15 +354,203 @@ hr {
 @media (max-width: 950px) {
   table.main-table {
     width: 100%;
+    margin: 0;
+    border: none;
   }
 
   .sidebar {
     width: 100%;
+    padding: 10px;
   }
 
   .sidebar td {
     display: inline-block;
     vertical-align: top;
+  }
+
+  .content {
+    padding: 15px 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  table.main-table {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Stack sidebar items in a row on tablet */
+  .sidebar {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .sidebar td {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+  }
+
+  .avatar-container {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  .avatar-container img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .avatar-name,
+  .avatar-position {
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+    vertical-align: top;
+  }
+
+  .sidebar-section {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .content {
+    padding: 12px 15px !important;
+    min-height: auto;
+  }
+
+  .content p {
+    font-size: 13px;
+  }
+
+  .pub-item {
+    padding: 8px;
+    margin: 8px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  table.main-table {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Make sidebar stack vertically on mobile */
+  .sidebar {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .sidebar td {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .avatar-container {
+    display: block;
+    margin: 0 auto 8px;
+  }
+
+  .avatar-container img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .avatar-name,
+  .avatar-position {
+    display: block;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .sidebar-section {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+    vertical-align: top;
+  }
+
+  .content {
+    padding: 10px 12px !important;
+  }
+
+  .content p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .content ul,
+  .content ol {
+    margin: 8px 0 8px 18px;
+  }
+
+  .content li {
+    font-size: 12px;
+  }
+
+  .pub-item {
+    padding: 6px 8px;
+  }
+
+  .pub-title {
+    font-size: 12px;
+  }
+
+  .pub-authors,
+  .pub-venue {
+    font-size: 11px;
+  }
+
+  .top-nav {
+    padding: 10px 8px !important;
+    text-align: center;
+  }
+
+  .top-nav a {
+    display: inline-block;
+    padding: 6px 8px;
+    margin: 3px;
+    font-size: 11px !important;
+  }
+
+  .top-banner {
+    padding: 8px 10px;
+  }
+
+  .site-title {
+    font-size: 14px;
+  }
+
+  .site-title span {
+    display: block;
+    font-size: 11px;
+    margin-top: 2px;
+  }
+
+  .footer {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .footer a {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+
+  .section-title {
+    padding: 4px 8px;
+    margin: 12px 0 10px 0;
+  }
+
+  .section-title h2 {
+    font-size: 13px;
   }
 }
 
