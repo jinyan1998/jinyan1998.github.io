@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif; color: #595959; font-weight: 400; margin: 0; }
+body { background-color: #fff; padding: 0px; font: 17.0px/1.5 Crimson Pro, serif; color: #595959; font-weight: 400; margin: 0; }
 
 .pub-row { display: flex; align-items: center; }
 
@@ -150,10 +150,19 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
   div.wrapper { width: auto; margin: 0; padding: 0 15px; }
   header, section, footer { float: none; position: static; width: auto; }
   header { padding: 20px 0; text-align: center; }
+
+  /* Tablet layout: header becomes top bar with 2 columns */
+  header .image.avatar { display: inline-block; vertical-align: middle; margin-right: 20px; }
+  header h1 { display: inline-block; vertical-align: middle; margin: 0 0 10px 0; font-size: 24px; }
+  header position { display: block; font-size: 16px !important; }
+  header a[rel="noopener"] { display: block; font-size: 14px; }
+  header email { display: block; font-size: 13px; margin-top: 5px; }
+  header .social-icons { margin-top: 10px; }
+
   section { border: 1px solid #e5e5e5; border-width: 1px 0; padding: 20px 0; margin: 0 0 20px; }
   header a small { display: inline; }
   header ul { position: relative; right: auto; top: auto; width: 100%; }
-  .image.avatar img { border-radius: 100%; width: 117px; padding: 20px; }
+  .image.avatar img { border-radius: 100%; width: 100px; padding: 15px; }
   #head1o2 { visibility: hidden; }
   #head2o2 { visibility: hidden; }
   footer { position: static; width: auto; padding: 20px 0; text-align: center; }
@@ -164,17 +173,40 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
   pre, code { word-wrap: normal; } }
 @media print, screen and (max-width: 480px) {
   .pub-row { display: block; align-items: flex-start; }
-  body { padding: 10px; word-wrap: break-word; }
-  header { padding: 15px 0; }
+  body { padding: 8px; word-wrap: break-word; font-size: 15px; }
+  header { padding: 12px 0; }
+
+  /* Mobile: header becomes compact top bar */
+  header { text-align: center; }
+  header .image.avatar { display: block; margin: 0 auto 10px; }
+  header .image.avatar img { border-radius: 100%; width: 90px; padding: 10px; }
+  header h1 { font-size: 22px; margin-bottom: 8px; }
+  header position { font-size: 15px !important; display: block; }
+  header a[rel="noopener"] { font-size: 13px; display: block; }
+  header email { font-size: 12px; display: block; margin-top: 5px; }
+  header .social-icons { margin-top: 10px; }
+
   header ul { width: 99%; }
   header li, header ul li + li + li { width: 33%; }
-  .image.avatar img { border-radius: 100%; width: 80px; padding: 15px; }
+
   #head1o2 { visibility: hidden; }
   #head2o2 { visibility: hidden; }
-  section { padding: 15px 0; }
+  section { padding: 15px 10px; }
   h1 { font-size: 22px; }
   h2 { font-size: 18px; }
-  .social-icons a { height: 2rem; width: 2rem; font-size: 1rem; line-height: 2.1rem; margin-right: 0.5rem; }
+
+  /* Larger text for mobile readability */
+  p, ul, ol { font-size: 15px; }
+  .content p { font-size: 15px; line-height: 1.6; }
+  .content li { font-size: 15px; }
+
+  /* Make publication rows more readable on mobile */
+  .pub-row { display: block; }
+  .pub-row .col-sm-3 { width: 100%; padding: 10px 0; text-align: center; }
+  .pub-row .col-sm-9 { width: 100%; padding: 10px 0; }
+  .pub-row .teaser { max-width: 100%; height: auto; }
+
+  .social-icons a { height: 2.2rem; width: 2.2rem; font-size: 1.1rem; line-height: 2.3rem; margin-right: 0.5rem; }
   footer { position: static; width: auto; padding: 15px 0; text-align: center; }
 }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
