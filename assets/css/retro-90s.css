@@ -8,7 +8,7 @@
 
 body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   background: #e8e8e8;
   color: #333333;
   min-height: 100vh;
@@ -352,20 +352,24 @@ hr {
 
 /* Mobile */
 @media (max-width: 950px) {
-  table.main-table {
+  table.main-table,
+  table.main-table > tbody,
+  table.main-table > tr,
+  table.main-table > tbody > tr,
+  table.main-table > tr > td,
+  table.main-table > tbody > tr > td {
+    display: block;
     width: 100%;
+    box-sizing: border-box;
+  }
+
+  table.main-table {
     margin: 0;
     border: none;
   }
 
   .sidebar {
-    width: 100%;
     padding: 10px;
-  }
-
-  .sidebar td {
-    display: inline-block;
-    vertical-align: top;
   }
 
   .content {
@@ -374,21 +378,9 @@ hr {
 }
 
 @media (max-width: 768px) {
-  table.main-table {
-    width: 100%;
-    margin: 0;
-  }
-
   /* Stack sidebar items in a row on tablet */
   .sidebar {
-    width: 100%;
     padding: 8px;
-  }
-
-  .sidebar td {
-    display: inline-block;
-    width: 48%;
-    vertical-align: top;
   }
 
   .avatar-container {
@@ -411,8 +403,10 @@ hr {
   }
 
   .sidebar-section {
-    width: 100%;
+    display: inline-block;
+    width: 48%;
     margin-bottom: 8px;
+    vertical-align: top;
   }
 
   .content {
@@ -435,22 +429,10 @@ hr {
     font-size: 14px;
   }
 
-  table.main-table {
-    width: 100%;
-    margin: 0;
-  }
-
   /* Make sidebar stack vertically on mobile */
   .sidebar {
-    width: 100%;
     padding: 8px;
     text-align: center;
-  }
-
-  .sidebar td {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
   }
 
   .avatar-container {
@@ -471,10 +453,11 @@ hr {
   }
 
   .sidebar-section {
-    display: inline-block;
+    display: block;
     width: 100%;
     margin-bottom: 8px;
     vertical-align: top;
+    text-align: left;
   }
 
   .content {
