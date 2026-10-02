@@ -4,9 +4,7 @@ layout: homepage
 
 ## About Me
 
-I recently earned my Ph.D. degree from the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/), where I was mentored by my insightful and kind advisor, [Prof. Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang/).
-
-I also received my Master's degree (2023) from Tsinghua University and my Bachelor's degree (2020) from Central South University.
+I recently earned my Ph.D. degree from the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/). I also received my Master's degree (2023) from Tsinghua University and my Bachelor's degree (2020) from Central South University.
 
 I am a devoted researcher on wireless networks.
 
