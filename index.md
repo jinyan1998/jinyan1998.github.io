@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I recently earned my Ph.D. degree from the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/). I also received my Master's degree (2023) from Tsinghua University and my Bachelor's degree (2020) from Central South University.
+I am a Postdoctoral Researcher at the University of Edinburgh, working with Professor [Mahesh K. Marina](https://homepages.inf.ed.ac.uk/mmarina/).
+
+I received my Ph.D. (2026) and Master's degree (2023) from the School of Software, Tsinghua University, under the supervision of Professor [Jiliang Wang](https://tns.thss.tsinghua.edu.cn/~jiliang/). Prior to that, I received my Bachelor's degree (2020) from Central South University.
 
 I am a devoted researcher on wireless networks.
 
